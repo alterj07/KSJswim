@@ -7,10 +7,10 @@ export function loadNavBar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav" style = "justify-content: space-between; width: 80%; margin: 0 auto">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Instructors</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link" href="#">Sign-Ups</a>
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            <a class="nav-link" href="/src/pages/instructors.html">Instructors</a>
+            <a class="nav-link" href="404.html">Pricing</a>
+            <a class="nav-link" href="404.html">Sign-Ups</a>
           </div>
         </div>
       </div>
