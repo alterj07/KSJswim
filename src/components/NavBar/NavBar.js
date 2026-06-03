@@ -22,5 +22,8 @@ export function loadNavBar() {
       </div>
     </nav>
   `;
-  document.body.insertAdjacentHTML('afterbegin', navHTML);
+  // document.body.insertAdjacentHTML('afterbegin', navHTML);
+  return navHTML;
 }
+
+// loadNavBar();

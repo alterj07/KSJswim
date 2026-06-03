@@ -1,13 +1,11 @@
 export function loadInstructor2Card() {
     const instructor2HTML = `
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 25vw">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
-            <h5 class="card-title">Instructor 2</h5>
-            <p class="card-text">Description for Instructor 2</p>
-            <a href="#" class="btn btn-primary">Go somewhere idk where yet</a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
         </div>
     </div>
     `;
-    document.body.insertAdjacentHTML('beforeend', instructor2HTML);
+    return instructor2HTML;
 }
