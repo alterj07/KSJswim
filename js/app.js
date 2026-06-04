@@ -9,7 +9,14 @@ import { loadInstructor2Card } from '/src/components/CardTitle/Instructors/instr
 import { loadInstructor3Card } from '/src/components/CardTitle/Instructors/instructor3.js';
 import { loadPricing1Card } from '/src/components/CardTitle/Pricing/pricing1.js';
 
-loadNavBar();
+// Initialize NavBar
+const navbarRoot = document.getElementById('navbar-root');
+if (navbarRoot) {
+  const navbarHTML = loadNavBar();
+  if (navbarHTML) {
+    navbarRoot.innerHTML = navbarHTML;
+  }
+}
 
 document.addEventListener('DOMContentLoaded', () => {
   console.log('KSJ Swim app initialized');
@@ -26,10 +33,10 @@ if (scrollButton) {
     });
 }
 
-if(document.getElementById('navbar-root')) {
-    const navbarHTML = loadNavBar();
-    document.getElementById('navbar-root').innerHTML = navbarHTML;
-}
+// if(document.getElementById('navbar-root')) {
+//     const navbarHTML = loadNavBar();
+//     document.getElementById('navbar-root').innerHTML = navbarHTML;
+// }
 
 if(document.getElementById('instructor1')) {
     const joshCardHTML = loadJoshCard();
