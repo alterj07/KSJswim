@@ -24,9 +24,5 @@
   "dependencies": {
     "bootstrap": "^5.3.8",
     "html5-boilerplate": "^9.0.1"
-  },
-  "routes": [
-    { "src": "/pages/(.*)", "dest": "/src/pages/$1" },
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
+  }
 }
