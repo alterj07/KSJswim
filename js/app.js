@@ -3,11 +3,11 @@
  * Initializes all components
  */
 
-import { loadNavBar } from '../src/components/NavBar/NavBar.js';
-import { loadJoshCard } from '../src/components/CardTitle/Instructors/Josh.js';
-import { loadInstructor2Card } from '../src/components/CardTitle/Instructors/instructor2.js';
-import { loadInstructor3Card } from '../src/components/CardTitle/Instructors/instructor3.js';
-import { loadPricing1Card } from '../src/components/CardTitle/Pricing/pricing1.js';
+import { loadNavBar } from '/src/components/NavBar/NavBar.js';
+import { loadJoshCard } from '/src/components/CardTitle/Instructors/Josh.js';
+import { loadInstructor2Card } from '/src/components/CardTitle/Instructors/instructor2.js';
+import { loadInstructor3Card } from '/src/components/CardTitle/Instructors/instructor3.js';
+import { loadPricing1Card } from '/src/components/CardTitle/Pricing/pricing1.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   console.log('KSJ Swim app initialized');
