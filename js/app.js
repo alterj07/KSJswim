@@ -26,10 +26,10 @@ if (scrollButton) {
     });
 }
 
-// if(document.getElementById('navbar-root')) {
-//     const navbarHTML = loadNavBar();
-//     document.getElementById('navbar-root').innerHTML = navbarHTML;
-// }
+if(document.getElementById('navbar-root')) {
+    const navbarHTML = loadNavBar();
+    document.getElementById('navbar-root').innerHTML = navbarHTML;
+}
 
 if(document.getElementById('instructor1')) {
     const joshCardHTML = loadJoshCard();
