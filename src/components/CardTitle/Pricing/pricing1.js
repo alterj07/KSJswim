@@ -1,0 +1,10 @@
+export function loadPricing1Card() {
+    const pricing1HTML = `
+    <div class="card" style="width: 25vw">
+        <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        </div>
+    </div>
+    `;
+    return pricing1HTML;
+}
