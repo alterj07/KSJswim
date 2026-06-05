@@ -176,10 +176,33 @@ textarea {
 }
 
 /* NavBar Section */
+.ksj-navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 4;
+  opacity: 0.9;
+}
+
+.container-fluid {
+  background-color: rgba(212, 212, 212, 0.20);
+  color: #525252;
+  backdrop-filter: blur(1px);
+  border: 1px solid rgba(163, 163, 163, 0.20);
+  transition: all 0.5s ease;
+}
+
+.container-fluid:hover {
+  background-color: rgba(212, 212, 212, 0.30);
+}
+
+
 .ksj-navbar-text {
   font-family: 'Outfit', sans-serif;
   font-size: 16px;
+  font-weight: bold;
   color: white;
+  transition: color 0.3s ease;
 }
 
 .ksj-navbar-text:hover {
