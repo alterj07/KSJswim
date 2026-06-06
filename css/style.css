@@ -269,6 +269,11 @@ textarea {
   z-index: 1;
   max-width: 700px;
   margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .ksj-eyebrow {
