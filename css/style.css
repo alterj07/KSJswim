@@ -223,7 +223,7 @@ textarea {
   padding: 80px 20px;
   background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%);
   text-align: center;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
 }
 
