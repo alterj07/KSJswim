@@ -178,6 +178,11 @@ textarea {
   --text-dark: #183D51;
 }
 
+.spacer {
+  height: 2rem;
+  background-color: var(--bg);
+}
+
 /* NavBar Section */
 .ksj-navbar {
   position: fixed;
