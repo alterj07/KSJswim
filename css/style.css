@@ -172,7 +172,10 @@ textarea {
   --pale-blue: #add8e6;
   --coral: #ff6b6b;
   --white: #ffffff;
-  --bg: #f9f9f9;
+  /* --bg: #f9f9f9; */
+  /* --bg: #183D51; */
+  --bg: #add8e6;
+  --text-dark: #183D51;
 }
 
 /* NavBar Section */
@@ -268,7 +271,7 @@ textarea {
   font-family: 'Outfit', sans-serif;
   font-size: 14px;
   font-weight: 600;
-  color: var(--ocean);
+  color: var(--pale-blue);
   letter-spacing: 0.8px;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -279,7 +282,7 @@ textarea {
   font-size: 48px;
   font-weight: 700;
   line-height: 1.2;
-  color: #222;
+  color: var(--pale-blue);
   margin: 20px 0;
 }
 
@@ -291,7 +294,7 @@ textarea {
 .ksj-hero-sub {
   font-family: 'Outfit', sans-serif;
   font-size: 18px;
-  color: #555;
+  color: var(--white);
   margin: 20px 0 40px 0;
   line-height: 1.6;
 }
@@ -339,7 +342,7 @@ textarea {
   font-family: 'Outfit', sans-serif;
   font-size: 14px;
   font-weight: 600;
-  color: var(--ocean);
+  color: var(--text-dark);
   letter-spacing: 0.8px;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -349,7 +352,7 @@ textarea {
   font-family: 'Lora', serif;
   font-size: 42px;
   font-weight: 700;
-  color: #222;
+  color: var(--text-dark);
   margin-bottom: 20px;
 }
 
