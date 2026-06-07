@@ -173,9 +173,9 @@ textarea {
   --coral: #ff6b6b;
   --white: #ffffff;
   /* --bg: #f9f9f9; */
-  /* --bg: #183D51; */
-  --bg: #add8e6;
-  --text-dark: #183D51;
+  --bg: #183D51;
+  /* --bg: #add8e6; */
+  --text-light: #add8e6;
 }
 
 .spacer {
@@ -339,7 +339,8 @@ textarea {
 .ksj-cards-section {
   max-height: 100%;
   padding: 40px 20px;
-  background: var(--bg);
+  /* background: var(--bg); */
+  background: linear-gradient(180deg, var(--bg) 0%, #ffffff 100%);
 }
 
 .ksj-cards-header {
@@ -352,7 +353,7 @@ textarea {
   font-family: 'Outfit', sans-serif;
   font-size: 14px;
   font-weight: 600;
-  color: var(--text-dark);
+  color: var(--text-light);
   letter-spacing: 0.8px;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -362,14 +363,14 @@ textarea {
   font-family: 'Lora', serif;
   font-size: 42px;
   font-weight: 700;
-  color: var(--text-dark);
+  color: var(--text-light);
   margin-bottom: 20px;
 }
 
 .ksj-cards-intro {
   font-family: 'Outfit', sans-serif;
   font-size: 18px;
-  color: #666;
+  color: var(--white);
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
@@ -379,17 +380,14 @@ textarea {
 .card {
   border: none;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  align-items: center;
   transition: all 0.3s ease;
 }
 
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
-}
 
 .card-body {
   padding: 28px;
+  width: 30vw;
 }
 
 .card-icon {
@@ -398,11 +396,27 @@ textarea {
   margin-bottom: 16px;
 }
 
-.card-title {
+.card-title-dark {
   font-family: 'Lora', serif;
-  font-size: 22px;
+  font-size: 3vw;
   font-weight: 700;
   color: #222;
+  margin-bottom: 12px;
+}
+
+.card-title-light {
+  font-family: 'Lora', serif;
+  font-size: 3vw;
+  font-weight: 700;
+  color: var(--text-light);
+  margin-bottom: 12px;
+}
+
+.card-title-medium {
+  font-family: 'Lora', serif;
+  font-size: 3vw;
+  font-weight: 700;
+  color: var(--ocean);
   margin-bottom: 12px;
 }
 
@@ -413,29 +427,14 @@ textarea {
   line-height: 1.6;
 }
 
-.card-v-ocean {
-  border-top: 4px solid var(--ocean);
-  background: linear-gradient(135deg, #f0f8ff 0%, #ffffff 100%);
-}
-
-.card-v-sand {
-  border-top: 4px solid var(--sand);
-  background: linear-gradient(135deg, #fff8f0 0%, #ffffff 100%);
-}
-
-.card-v-pale {
-  border-top: 4px solid var(--pale-blue);
-  background: linear-gradient(135deg, #f0f8ff 0%, #ffffff 100%);
-}
-
-.card-v-coral {
-  border-top: 4px solid var(--coral);
-  background: linear-gradient(135deg, #fff5f5 0%, #ffffff 100%);
-}
-
-.card-v-white {
-  border-top: 4px solid #ddd;
-  background: #ffffff;
+.card-eyebrow {
+  display: block;
+  font-family: 'Outfit', sans-serif;
+  font-size: 10px;
+  color: var(--text-light);
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
 }
 
 .card-v-cta {
