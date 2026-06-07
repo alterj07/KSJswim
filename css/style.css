@@ -176,6 +176,8 @@ textarea {
   --bg: #183D51;
   /* --bg: #add8e6; */
   --text-light: #add8e6;
+  --bg-text: #ADD8E6;
+
 }
 
 .spacer {
@@ -353,7 +355,7 @@ textarea {
   font-family: 'Outfit', sans-serif;
   font-size: 14px;
   font-weight: 600;
-  color: var(--text-light);
+  color: var(--bg-text);
   letter-spacing: 0.8px;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -370,7 +372,7 @@ textarea {
 .ksj-cards-intro {
   font-family: 'Outfit', sans-serif;
   font-size: 18px;
-  color: var(--white);
+  color: #A9E5FB;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
@@ -408,7 +410,7 @@ textarea {
   font-family: 'Lora', serif;
   font-size: 3vw;
   font-weight: 700;
-  color: var(--text-light);
+  color: #A9E5FB;
   margin-bottom: 12px;
 }
 
@@ -416,14 +418,14 @@ textarea {
   font-family: 'Lora', serif;
   font-size: 3vw;
   font-weight: 700;
-  color: var(--ocean);
+  color: #012842;
   margin-bottom: 12px;
 }
 
 .card-text {
   font-family: 'Outfit', sans-serif;
   font-size: 16px;
-  color: #555;
+  color: #012842;
   line-height: 1.6;
 }
 
@@ -431,7 +433,7 @@ textarea {
   display: block;
   font-family: 'Outfit', sans-serif;
   font-size: 10px;
-  color: var(--text-light);
+  color: #A9E5FB;
   letter-spacing: 0.8px;
   text-transform: uppercase;
   margin-bottom: 8px;
