@@ -1,7 +1,7 @@
 export function loadPricing1Card() {
     const pricing1HTML = `
     <div class="card" style="width: 25vw; height: 50vh">
-        <div class="card-body" style="text-align:center; display: flex; flex-direction: column;">
+        <div class="card-body" style="text-align:center; display: flex; flex-direction: column; width: 25vw">
             <div style="display: flex; flex: 3; align-items: center; justify-content: center;">
                 <h5 class="card-title" style="text-align: center">Name of Package</h5>
             </div>
